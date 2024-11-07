@@ -22,7 +22,7 @@ logging.basicConfig(level=logging.INFO,
                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Import the public framework components
+# Import framework components
 from src import Backtester, BaseStrategy, sma, ema, create_performance_dashboard
 
 def load_sample_data():
